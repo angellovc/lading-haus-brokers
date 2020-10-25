@@ -1,0 +1,74 @@
+/* Aimations */
+@keyframes animations {
+  from{width: 0; height: 0;}
+  to {
+    width: 100px; height: 200px;
+  }
+}
+
+/* Styles */
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color:white;
+  width: 29.5%;
+  padding: 20px;
+
+}
+
+
+aside .demos {
+  width: 100%;
+  position: relative;
+}
+
+
+
+aside .demos  img {
+  width: 100%;
+  padding: 2px;
+  border: 1px solid #002820;
+}
+
+aside h2 {
+  color: #002820;
+  font-size: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+aside p {
+  color: #002820;
+  line-height: 40px;
+}
+
+aside img {
+  vertical-align: top;
+  width: 100%;
+  border-radius: 20px;
+  opacity: 0.7;
+}
+
+aside img:hover {
+  cursor: pointer;
+  opacity: 1;
+  border: 1px solid green;
+}
+
+
+
+/* Responsive */
+@media screen and (max-width:800px) {
+ aside {
+   width: 100%;
+   padding: 100px;
+ }
+}
+
+@media screen and (max-width:400px) {
+  aside {
+    width: 100%;
+    padding: 20px;
+  }
+ }

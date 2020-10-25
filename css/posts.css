@@ -1,0 +1,70 @@
+.posts {
+  width:70%;
+  padding: 60px;
+  background-color: white;
+}
+
+
+
+.posts p {
+  height: 100%;
+  color: #002820;
+  line-height: 40px;
+}
+
+.posts h1, .posts h2 {
+  width: 100%;
+  color: #002820;
+  margin: 30px 0;
+}
+
+.posts article {
+  width: 100%;
+}
+
+.posts .dialog {
+  margin-top: 60px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+}
+
+.posts .image {
+  width: 50%;
+}
+.posts .text {
+  padding-left: 30px;
+  width: 50%;
+}
+.posts .image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+
+/* Responsive */
+@media screen and (max-width:800px) {
+  .posts {
+    width: 100%;
+    padding: 20px;
+  }
+  .posts .dialog {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .posts .text {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .posts .image {
+    width: 80%;
+  }
+  .posts h1, .posts h2 {
+    padding: 0;
+    text-align: center;
+  }
+ }

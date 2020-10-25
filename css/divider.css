@@ -1,0 +1,24 @@
+@keyframes divider {
+  0% {background-color: #E3FFF6}
+  15% {background-color: #7EFFDE}
+  30% {background-color: #00D0AE}
+  50% {background-color:#002820}
+  65% {background-color: #00D0AE}
+  85% {background-color: #7EFFDE}
+  100% {background-color: #E3FFF6}
+}
+
+.divider {
+  width: 100%;
+  height: 6px;
+  animation-name: divider;
+  animation-duration: 33s;
+  animation-iteration-count: infinite;
+  }
+
+  .divider-lateral {
+    width: 0.5%;
+    animation-name: divider;
+    animation-duration: 33s;
+    animation-iteration-count: infinite;
+    }
